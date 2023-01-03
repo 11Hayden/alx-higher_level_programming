@@ -6,7 +6,7 @@ def toupper(char):
         return ord(char)
 
 
-def uppercase(string);
+def uppercase(string):
     str_new = ""
     for char in string:
         str_new += "%c" % toupper(char)
