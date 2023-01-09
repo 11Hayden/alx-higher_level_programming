@@ -5,9 +5,9 @@
 */
 void reverse_list(listint_t **head)
 {
-	lisint_t *prev = NULL;
-	lisint_t *curr = *head;
-	lisint_t *next = NULL;
+	listint_t *prev = NULL;
+	listint_t *curr = *head;
+	listint_t *next = NULL;
 
 	while (curr)
 	{
